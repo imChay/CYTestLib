@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CYTool.h"
 
 @interface ViewController ()
 
@@ -16,13 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    int sum = [[CYTool defaultTool] sumwithNum:1 andNum:2];
+    NSLog(@"计算得到的结果是：%d",sum);
 }
 
 

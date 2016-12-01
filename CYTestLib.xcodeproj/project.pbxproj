@@ -15,6 +15,7 @@
 		01285A761DF026C3000D9C70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01285A741DF026C3000D9C70 /* LaunchScreen.storyboard */; };
 		01285A811DF026C3000D9C70 /* CYTestLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01285A801DF026C3000D9C70 /* CYTestLibTests.m */; };
 		01285A8C1DF026C3000D9C70 /* CYTestLibUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01285A8B1DF026C3000D9C70 /* CYTestLibUITests.m */; };
+		01285A9C1DF0282A000D9C70 /* CYTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 01285A9B1DF0282A000D9C70 /* CYTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		01285A871DF026C3000D9C70 /* CYTestLibUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYTestLibUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01285A8B1DF026C3000D9C70 /* CYTestLibUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYTestLibUITests.m; sourceTree = "<group>"; };
 		01285A8D1DF026C3000D9C70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01285A9A1DF0282A000D9C70 /* CYTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYTool.h; sourceTree = "<group>"; };
+		01285A9B1DF0282A000D9C70 /* CYTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		01285A651DF026C2000D9C70 /* CYTestLib */ = {
 			isa = PBXGroup;
 			children = (
+				01285A991DF0281A000D9C70 /* Classes */,
 				01285A691DF026C2000D9C70 /* AppDelegate.h */,
 				01285A6A1DF026C2000D9C70 /* AppDelegate.m */,
 				01285A6C1DF026C2000D9C70 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				01285A8D1DF026C3000D9C70 /* Info.plist */,
 			);
 			path = CYTestLibUITests;
+			sourceTree = "<group>";
+		};
+		01285A991DF0281A000D9C70 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				01285A9A1DF0282A000D9C70 /* CYTool.h */,
+				01285A9B1DF0282A000D9C70 /* CYTool.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01285A6E1DF026C2000D9C70 /* ViewController.m in Sources */,
+				01285A9C1DF0282A000D9C70 /* CYTool.m in Sources */,
 				01285A6B1DF026C2000D9C70 /* AppDelegate.m in Sources */,
 				01285A681DF026C2000D9C70 /* main.m in Sources */,
 			);
@@ -507,6 +521,7 @@
 				01285A921DF026C3000D9C70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01285A931DF026C3000D9C70 /* Build configuration list for PBXNativeTarget "CYTestLibTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +530,7 @@
 				01285A951DF026C3000D9C70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01285A961DF026C3000D9C70 /* Build configuration list for PBXNativeTarget "CYTestLibUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +539,7 @@
 				01285A981DF026C3000D9C70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
